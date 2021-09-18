@@ -3,7 +3,7 @@ const axios = require('axios');
 const getWeather = (lat,lon)=>{
     return new Promise((resolve,reject)=>{
 
-        const url= 'https://api.openweathermap.org/data/2.5/onecall?lat='+lat+'&lon='+lon+'&exclude=hourly,daily,minutely&units=metric&appid=b7cb13d2527e9d7da66a5337e96e3b8b';
+        const url= 'https://api.openweathermap.org/data/2.5/onecall?lat='+lat+'&lon='+lon+'&exclude=hourly,daily,minutely&units=metric&appid=f4a980374b92fa632f785fdfa99b1583';
 
                 axios.get(url)
                 .then(function (response) {
